@@ -1,1 +1,1 @@
-print("learning for django !")
+print("learning for django")
