@@ -4,7 +4,7 @@ N = int(input('Please enter a number ! '))
 
 fact = 1
 
-for i in range(1, N+1):
+for i in range(2, N+1):
     fact *= i
 
 
