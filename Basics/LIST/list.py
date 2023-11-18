@@ -1,14 +1,23 @@
-# python program to take list as input from user.
+# python program to multiply all the elements within a list.
+
+def multiply_list(list_nums):
+    product = 1
+
+    for num in list_nums:
+        product *= num
+
+    return product
 
 
-lst = []
+list_numbers = []
 
-n = int(input('Please enter no. of  elements'))
-
+n = int(input('Please enter a number ! '))
 
 for i in range(0, n):
     ele = int(input())
-    lst.append(ele)
+    list_numbers.append(ele)
 
 
-print(lst)
+ans = multiply_list(list_numbers)
+
+print(ans)
