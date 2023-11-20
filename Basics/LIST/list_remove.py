@@ -1,20 +1,15 @@
-# removing duplicate element from the list.
+# program to remove duplicate element from a list.
 
-ls = [10, 20, 10, 20, 30, 40, 50, 60, 70]
+# 1 - Given list.
+
+ls = [10, 20, 20, 30, 40, 50, 60]
 
 
-# step 1: declare another list.
+# declare a empty list.
 
-ls1 = []
 
+emp = []
 
 for n in ls:
-    if n not in ls1:
-        ls1.append(n)
-
-
-# print original list.
-
-print(ls)
-
-print('After removing elememnt: ',  ls1)
+    if n not in emp:
+        emp.append(n)
