@@ -10,6 +10,3 @@ class Person:
 
 # Creating an object of the person class
 person1 = Person("Alice", 30)
-
-
-# access
